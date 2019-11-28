@@ -9,7 +9,6 @@ Post-Deployment Script Template
                SELECT * FROM [$(TableName)]					
 --------------------------------------------------------------------------------------
 */
-USE Class4DB
 
 IF((Select count(1) From dbo.Student)=0)
 BEGIN 
