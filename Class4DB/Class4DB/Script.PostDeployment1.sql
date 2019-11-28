@@ -9,3 +9,21 @@ Post-Deployment Script Template
                SELECT * FROM [$(TableName)]					
 --------------------------------------------------------------------------------------
 */
+INSERT INTO dbo.Student VALUES ('Firstname1','LastName1',23,GETDATE(),null)
+INSERT INTO dbo.Student VALUES ('Firstname2','LastName2',24,GETDATE(),null)
+INSERT INTO dbo.Student VALUES ('Firstname3','LastName3',25,GETDATE(),null)
+INSERT INTO dbo.Student VALUES ('Firstname4','LastName4',26,GETDATE(),null)
+
+INSERT INTO dbo.Class VALUES ('Class1',201,GETDATE(),null)
+INSERT INTO dbo.Class VALUES ('Class2',202,GETDATE(),null)
+INSERT INTO dbo.Class VALUES ('Class3',203,GETDATE(),null)
+INSERT INTO dbo.Class VALUES ('Class4',204,GETDATE(),null)
+
+INSERT INTO dbo.Student_Class VALUES (1,1,GETDATE(),null)
+INSERT INTO dbo.Student_Class VALUES (1,2,GETDATE(),null)
+INSERT INTO dbo.Student_Class VALUES (1,3,GETDATE(),null)
+INSERT INTO dbo.Student_Class VALUES (2,1,GETDATE(),null)
+INSERT INTO dbo.Student_Class VALUES (2,2,GETDATE(),null)
+INSERT INTO dbo.Student_Class VALUES (2,3,GETDATE(),null)
+INSERT INTO dbo.Student_Class VALUES (3,2,GETDATE(),null)
+INSERT INTO dbo.Student_Class VALUES (3,3,GETDATE(),null)
