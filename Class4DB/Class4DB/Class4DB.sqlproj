@@ -65,6 +65,7 @@
     <Build Include="VW_GetAllStudents.sql" />
     <Build Include="VW_GetAllClasses.sql" />
     <Build Include="FunctionCountStudentAsPerAge.sql" />
+    <Build Include="TableValuedFunction1.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Script.PostDeployment1.sql" />
