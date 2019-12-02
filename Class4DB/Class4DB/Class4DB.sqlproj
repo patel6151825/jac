@@ -66,11 +66,9 @@
     <Build Include="VW_GetAllClasses.sql" />
     <Build Include="FunctionCountStudentAsPerAge.sql" />
     <Build Include="TableValuedFunction1.sql" />
-    <Build Include="Function1.sql" />
-    <Build Include="Function2.sql" />
-    <Build Include="Function3.sql" />
-    <Build Include="Function4.sql" />
     <Build Include="TableValuedFunction2.sql" />
+    <Build Include="tvf_GetAllStudents.sql" />
+    <Build Include="sp_JoinClassWithStudentResult.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Script.PostDeployment1.sql" />

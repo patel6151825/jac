@@ -35,3 +35,4 @@ BEGIN
 	INSERT INTO dbo.Student_Class VALUES (3,3,GETDATE(),null)
 
 END
+
